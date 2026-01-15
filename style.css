@@ -1,1 +1,496 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  background: lightpink;
+}
+header .container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 130px;
+}
+header .container .navbar .navbar_rasm {
+  width: 130px;
+}
+header .container .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header .container .navbar ul li a {
+  text-decoration: none;
+  color: #424551;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160px;
+}
+header .container .navbar ul li a:hover {
+  color: deeppink;
+}
+header .container .navbar .get {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+header .container .navbar .get .get25 {
+  width: 170px;
+  height: 52px;
+  border: 1px solid #F75E05;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  color: white;
+  text-align: center;
+  background: #F75E05;
+}
+header .container .navbar .get .get25:hover {
+  background: rgb(43, 183, 226);
+  color: aqua;
+}
+header .container .navbar .get .get2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 143px;
+}
+header .container .navbar .get .get2 p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+header .container .navbar .get .get2 p:hover {
+  color: deeppink;
+}
+header .container .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 180px;
+}
+header .container .box .card2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 25px;
+}
+header .container .box .card2 .card {
+  width: 80px;
+  height: 80px;
+  background: red;
+  border-radius: 50%;
+  animation-name: yutub;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  box-shadow: rgb(240, 140, 140) 3px 3px 5px 5px;
+}
+@keyframes yutub {
+  0% {
+    transform: translate(0), scale(1);
+  }
+  30% {
+    transform: translate(50px, -50px), scale(1.4);
+    background: darkred;
+  }
+  50% {
+    transform: translate(0), scale(2);
+  }
+}
+header .container .box .card2 .card2_h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1E212C;
+}
+header .container .box .about {
+  width: 496px;
+}
+header .container .box .about h3 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 130%;
+  color: #1E212C;
+  margin-bottom: 60px;
+}
+header .container .box .aboute {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .container .box .aboute .about1 {
+  width: 150px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px solid #FF3F3A;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  color: #F75E05;
+  background: none;
+}
+header .container .box .aboute .about1:hover {
+  background: #424551;
+  color: aquamarine;
+}
+header .container .box .aboute .about2 {
+  width: 170px;
+  height: 52px;
+  border: 1px solid #F75E05;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  color: white;
+  text-align: center;
+  background: #F75E05;
+}
+header .container .box .aboute .about2:hover {
+  background: cadetblue;
+  color: black;
+}
+header .container .box .aboute .rasm {
+  width: 600px;
+}
+header .container .student {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+header .container .student .Students {
+  width: 257px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .container .student .Students h3 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+header .container .student .Students p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+}
+header .container .student .tochka {
+  width: 8px;
+}
+header .container .student .courses {
+  width: 201px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .container .student .courses h2 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+header .container .student .courses p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+}
+header .container .student .tochka2 {
+  width: 8px;
+}
+header .container .student .tutors {
+  width: 177px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .container .student .tutors h3 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+header .container .student .tutors p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+}
+header .container .student .tochka3 {
+  width: 8px;
+}
+header .container .student .years {
+  width: 176px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .container .student .years h2 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+header .container .student .years p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+}
+
+main .section1 .container .who {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  padding-top: 180px;
+  margin-bottom: 180px;
+}
+main .section1 .container .who .who2 {
+  width: 700px;
+}
+main .section1 .container .who .why {
+  width: 298px;
+}
+main .section1 .container .who .why .why_h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1E212C;
+  padding-bottom: 8px;
+}
+main .section1 .container .who .why .why_h3 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color-scheme: #1E212C;
+  padding-bottom: 30px;
+}
+main .section1 .container .who .why .fermentuv {
+  width: 390px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+main .section1 .container .who .why .fermentuv .fermentuv_rasm1 {
+  width: 16px;
+  margin-top: -17px;
+}
+main .section1 .container .who .why .fermentuv .fermentuv_p {
+  width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+main .section1 .container .who .why .fermentuv2 {
+  width: 390px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+main .section1 .container .who .why .fermentuv2 .fermentuv_rasm1 {
+  width: 16px;
+  margin-top: -10px;
+}
+main .section1 .container .who .why .fermentuv2 .fermentuv_p {
+  width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+main .section1 .container .who .why .fermentuv3 {
+  width: 390px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+main .section1 .container .who .why .fermentuv3 .fermentuv_rasm1 {
+  width: 16px;
+  margin-top: -10px;
+}
+main .section1 .container .who .why .fermentuv3 .fermentuv_p {
+  width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+main .section1 .container .who .why .fermentuv4 {
+  width: 390px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+main .section1 .container .who .why .fermentuv4 .fermentuv_rasm1 {
+  width: 16px;
+  margin-top: -10px;
+}
+main .section1 .container .who .why .fermentuv4 .fermentuv_p {
+  width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+main .section1 .container .who .why .fermentuv5 {
+  width: 390px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+main .section1 .container .who .why .fermentuv5 .fermentuv_rasm1 {
+  width: 16px;
+  margin-top: -10px;
+}
+main .section1 .container .who .why .fermentuv5 .fermentuv_p {
+  width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+main .section1 .container .who .why .fermentuv6 {
+  width: 390px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+main .section1 .container .who .why .fermentuv6 .fermentuv_rasm1 {
+  width: 16px;
+  margin-top: -70px;
+}
+main .section1 .container .who .why .fermentuv6 .fermentuv_p {
+  width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 48px;
+}
+main .section1 .container .who .why .more {
+  width: 160px;
+  height: 44px;
+  border: 1px solid #F75E05;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  color: white;
+  text-align: center;
+  background: #F75E05;
+}
+main .section1 .container .who .why .more:hover {
+  background: red;
+  color: black;
+}
+main .section1 .dots {
+  position: absolute;
+  margin-top: -600px;
+}
+main .section1 .dots2 {
+  position: absolute;
+  margin-left: 92%;
+  margin-top: -400px;
+}
+
+@media (max-width: 1150px) {
+  header .container .box .rasm {
+    width: 70%;
+  }
+  main .section1 .dots {
+    display: none;
+  }
+  main .section1 .dots2 {
+    display: none;
+  }
+  main .section1 .container .who {
+    display: flex;
+    gap: 172px;
+  }
+  main .section1 .container .who .who2 {
+    width: 50%;
+  }
+}
+@media (max-width: 1080px) {
+  header .container .box {
+    flex-direction: column;
+  }
+  header .container .box .rasm {
+    width: 70%;
+  }
+  main .section1 .dots {
+    display: none;
+  }
+  main .section1 .dots2 {
+    display: none;
+  }
+  main .section1 .container .who {
+    flex-direction: column;
+  }
+  main .section1 .container .who .who2 {
+    width: 50%;
+  }
+}
+@media (max-width: 950px) {
+  header .container .navbar ul {
+    display: none;
+  }
+  header .container .box {
+    flex-direction: column;
+  }
+  header .container .box .rasm {
+    width: 70%;
+  }
+  header .container .student .Students h3 {
+    font-size: 25px;
+  }
+  header .container .student .courses h2 {
+    font-size: 25px;
+  }
+  header .container .student .tutors h3 {
+    font-size: 25px;
+  }
+  header .container .student .years h2 {
+    font-size: 25px;
+  }
+  main .section1 .dots {
+    display: none;
+  }
+  main .section1 .dots2 {
+    display: none;
+  }
+  main .section1 .container .who {
+    flex-direction: column;
+  }
+  main .section1 .container .who .who2 {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
